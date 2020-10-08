@@ -1,5 +1,5 @@
-api: bundle exec rails s -p 3001
-sleep 5
-web: cd client && yarn run build && yarn start
+web: cd client && yarn start
+api: bundle exec rails s -p 3001  && cd client && yarn run build
+
 
 
