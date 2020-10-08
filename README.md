@@ -9,7 +9,7 @@ Before start be sure you have this dependencies installed:
 
 * NodeJS 12.x.x
 
-* Yarn ^1.22
+* Yarn
 
 ## Installation
 ### Install backend dependencies
@@ -30,7 +30,8 @@ rails db:seed
 ```
 cd client && yarn install
 ```
-* Run dev server
+### Run dev server
+From app root
 ```
 foreman start -f Procfile.dev
 ```
