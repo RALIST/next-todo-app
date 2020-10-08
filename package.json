@@ -4,6 +4,6 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "heroku-postbuild": "cd client && npm run build"
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
   }
 }
