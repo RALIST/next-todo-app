@@ -58,3 +58,4 @@
 
 # vercel
 /client/.vercel
+.idea
