@@ -1,3 +1,2 @@
-web: bundle exec rails s -p $PORT
-client: yarn run build && yarn start
+web: foreman start -f Procfile.prod -p $PORT
 release: rails db:migrate

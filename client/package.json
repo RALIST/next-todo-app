@@ -2,13 +2,14 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "scripts":{
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT -H 0.0.0.0"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
