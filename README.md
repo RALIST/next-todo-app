@@ -1,24 +1,37 @@
-# README
+# Chucker 
+## Todo App to become Chuck Norris
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Before start be sure you have this dependencies installed:
 
-Things you may want to cover:
+* Ruby 2.6.5
 
-* Ruby version
+* PostgreSQL 10.x.x
 
-* System dependencies
+* NodeJS 12.x.x
 
-* Configuration
+* Yarn ^1.22
 
-* Database creation
+## Installation
+### Install backend dependencies
+```
+  cd next-todo-app
+  bundle install
+```
+* Create database
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails db:create db:migrate
+```
+* [Optional] Seed sample data
+``
+rails db:seed
+``
+### Install frontend dependencies
+```
+cd client && yarn install
+```
+* Run dev server
+```
+foreman start -f Procfile.dev
+```
+### Enjoy!
